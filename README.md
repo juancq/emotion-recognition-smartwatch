@@ -1,5 +1,10 @@
-# emotion-recognition-walking-acc
+# Emotion-recognition using smart watch accelerometer data
 
+This is the data and the source code used in the paper "Emotion-recognition using smart watch accelerometer data: preliminary findings." If you use our data set, please cite the following paper:
+
+Juan C. Quiroz, Min Hooi Yong, and Elena Geangu. 2017. Emotion-recognition using smart watch accelerometer data: preliminary findings. In Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium on Wearable Computers (UbiComp '17). ACM, New York, NY, USA, 805-812. DOI: https://doi.org/10.1145/3123024.3125614
+
+## Commands used to generate results from our data set
 
 Extract the accelerometer data from the recorded walking times.
 ```bash
@@ -28,5 +33,5 @@ python permute_test.py -mo mo_lift_scores_log.yaml -mu mu_lift_scores_log.yaml -
 
 Generate plot of feature importances.
 ```bash
-python fi_plot.py -mo mo_feature_import_acc_f1.yaml
+python feature_importance_plot.py -mo mo_feature_import_acc_f1.yaml -mu mu_feature_import_acc_f1.yaml -mw mw_feature_import_acc_f1.yaml
 ```
