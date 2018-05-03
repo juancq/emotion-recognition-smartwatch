@@ -7,7 +7,10 @@ import glob
 def main():
     '''
     Run as:
-    python get_walking_data.py analysis/watch_encoding.csv data/all_data/watch_results your_output_folder
+    python get_walking_data.py user_study_encoding.csv input_directory output_directory
+
+    Example:
+    python get_walking_data.py user_study_encoding.csv raw_data walking_data
 
     Takes a csv file of start-stop end times for each participant,
     and generates a csv file with only the walking times.
@@ -53,11 +56,6 @@ def main():
         time = np.genfromtxt(fname, delimiter=',', dtype=str, usecols=(0), skip_header=2, skip_footer=1)
         time = [':'.join([frag.zfill(2) for frag in t.split(':')[:-1]]) for t in time.tolist()]
 
-        #acc + heart
-        #data = np.genfromtxt(fname, delimiter=',', usecols=(1,2,3,10), skip_header=2, skip_footer=1)
-        # gyro
-        #data = np.genfromtxt(fname, delimiter=',', usecols=(7,8,9), skip_header=2, skip_footer=1)
-        #data = np.genfromtxt(fname, delimiter=',', usecols=(1,2,3), skip_header=2, skip_footer=1)
         #acc + gyro + heart
         data = np.genfromtxt(fname, delimiter=',', usecols=(1,2,3,7,8,9,10), skip_header=2, skip_footer=1)
 
