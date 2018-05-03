@@ -52,9 +52,6 @@ def main():
 
     if args.mo:
         movie_results = yaml.load(open(args.mo))
-        #print movie_results.keys()
-        #print movie_results
-        #return
         print '^' * 20
         print 'Movie'
         permute(movie_results)
