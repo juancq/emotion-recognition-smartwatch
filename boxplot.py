@@ -24,7 +24,6 @@ def main():
     output_file = args.output_file
     main_title = args.title
 
-
     movie = yaml.load(open(args.mo))
     music = yaml.load(open(args.mu))
     music_walk = yaml.load(open(args.mw))
@@ -42,13 +41,7 @@ def main():
 
     titles = ['Movie', 'Music', 'Music while walking']
     labels = ['Baseline', 'RF', 'Logistic']
-
-
-    #plt.boxplot(data, labels=labels)
-    #plt.xlabel('Time')
-    #plt.ylabel('Accuracy')
-
-    colors=['darkseagreen', 'plum', 'sandybrown']
+    colors = ['darkseagreen', 'plum', 'sandybrown']
 
     share = None
     for i, (group, title) in enumerate(zip(data, titles)):
@@ -88,9 +81,7 @@ def main():
     #plt.suptitle('Emotion Cross-Validation of Happy vs Sad', fontsize=14)
     #plt.ylim(0, 1)
 
-    #plt.suptitle(main_title, fontsize=14)
 
-    #plt.legend(labels=['Base', 'Random Forest', 'Logistic Reg'])
     plt.subplots_adjust(wspace=1.)
     plt.tight_layout()
     plt.subplots_adjust(top=0.87, wspace=0.5)
