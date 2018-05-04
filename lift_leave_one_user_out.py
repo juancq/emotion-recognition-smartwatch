@@ -96,9 +96,14 @@ def main():
 
     # end of function
     #---------
-    process_condition(args.mu, 'mu')
-    process_condition(args.mw, 'mw')
-    process_condition(args.mo, 'mo')
+
+    if args.mu:
+        process_condition(args.mu, 'mu')
+    if args.mw:
+        process_condition(args.mw, 'mw')
+    if args.mo:
+        process_condition(args.mo, 'mo')
+
 
 if __name__ == "__main__":
     main()
