@@ -1,6 +1,6 @@
 # Emotion-recognition using smart watch accelerometer data
 
-This is the data and the source code used in the paper "Emotion Recognition Using Smart Watch Sensor Data: Mixed-Design Study" published in JMIR Mental Health. If you use our code or dataset, cite the following paper: 
+This is the data and the source code used in the paper ["Emotion Recognition Using Smart Watch Sensor Data: Mixed-Design Study"](http://doi.org/10.2196/10153) published in [JMIR Mental Health](https://mental.jmir.org/). If you use our code or dataset, cite the following paper: 
 
 ```
 Quiroz JC, Geangu E, Yong MH
