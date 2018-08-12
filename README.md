@@ -1,8 +1,25 @@
 # Emotion-recognition using smart watch accelerometer data
 
-This is the data and the source code used in the paper "Emotion-recognition using smart watch accelerometer data: preliminary findings." If you use our data set, please cite the following paper:
+This is the data and the source code used in the paper "Emotion Recognition Using Smart Watch Sensor Data: Mixed-Design Study" published in JMIR Mental Health. If you use our code or dataset, cite the following paper: 
 
-Juan C. Quiroz, Min Hooi Yong, and Elena Geangu. 2017. Emotion-recognition using smart watch accelerometer data: preliminary findings. In Proceedings of the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium on Wearable Computers (UbiComp '17). ACM, New York, NY, USA, 805-812. DOI: https://doi.org/10.1145/3123024.3125614
+```
+Quiroz JC, Geangu E, Yong MH
+Emotion Recognition Using Smart Watch Sensor Data: Mixed-Design Study
+JMIR Ment Health 2018;5(3):e10153
+URL: https://mental.jmir.org/2018/3/e10153
+DOI: 10.2196/10153
+PMID: 30089610
+```
+
+Our preliminary results were published in:
+```
+Juan C. Quiroz, Min Hooi Yong, and Elena Geangu. 2017. 
+Emotion-recognition using smart watch accelerometer data: preliminary findings. 
+In Proceedings of the 2017 ACM International Joint Conference on Pervasive and 
+Ubiquitous Computing and Proceedings of the 2017 ACM International Symposium 
+on Wearable Computers (UbiComp '17). ACM, New York, NY, USA, 805-812. 
+DOI: https://doi.org/10.1145/3123024.3125614
+```
 
 ## Commands used to generate results from our data set
 
