@@ -57,7 +57,7 @@ def main():
             # extract consecutive windows
             i = fstart
             while i+window_size < fend:
-                window = data[i:i+window_size, :-1]
+                window = data[i:i+window_size]
 
                 features.append(window)
                 y.append(label)
