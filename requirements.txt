@@ -3,4 +3,4 @@ matplotlib==2.2.2
 scipy==0.19.1
 permute==0.1a4
 scikit_learn==0.19.2
-PyYAML==3.13
+PyYAML==5.1
