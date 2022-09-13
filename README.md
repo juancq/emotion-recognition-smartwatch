@@ -21,14 +21,21 @@ on Wearable Computers (UbiComp '17). ACM, New York, NY, USA, 805-812.
 DOI: https://doi.org/10.1145/3123024.3125614
 ```
 
-## Requirements
+## Dataset
+Data was collected from 50 participants. Coding details are available in user_study_encoding.csv. 
+
+
+
+## Replicating Study Results
+
+### Install requirements
 
 The code was written in python2.7. To install the requiements run:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Commands used to generate results from our data set
+### Commands used to generate results from our data set
 
 Extract the accelerometer data from the recorded walking times.
 ```bash
